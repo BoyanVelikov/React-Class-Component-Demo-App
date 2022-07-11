@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import ClassComponent from './ClassComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <ClassComponent/>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
         <a
           className="App-link"
           href="https://reactjs.org"
